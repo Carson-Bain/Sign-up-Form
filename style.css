@@ -10,9 +10,8 @@ body{
 }
 
 .left-side{
-background-color: aqua;
+background-image: url();
 height: 100vh;
-width: 100px;
 flex: 1.2;
 }
 
