@@ -10,9 +10,10 @@ body{
 }
 
 .left-side{
-background-image: url();
+background-image: url(img/forest.jpg);
 height: 100vh;
 flex: 1.2;
+min-width: 550px;
 }
 
 .right-side{
