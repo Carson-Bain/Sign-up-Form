@@ -14,11 +14,14 @@ background-image: url(img/forest.jpg);
 height: 100vh;
 flex: 1.2;
 min-width: 550px;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
 }
 
 .logo{
     background-color: gray;
-    margin-top: 175px;
+    margin-top: 200px;
     width: 100%;
     height: 140px;
     display: flex;
@@ -37,11 +40,20 @@ min-width: 550px;
     color: white;
 }
 
-/* currently working on how to put on bottom */
 .credit{
     text-align: center;
     color: white;
 }
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+
 
 .right-side{
 background-color: red;
