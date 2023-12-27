@@ -45,11 +45,11 @@ justify-content:space-between;
     color: white;
 }
 
-a:link{
+.link:link{
     color: white;
 }
 
-a:visited{
+.link:visited{
     color: white;
 }
 
@@ -80,4 +80,40 @@ a:visited{
     flex: 1;
     background-color: #f9fafb;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    background-color: #596D48;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2rem;
+    width: fit-content;
+    margin-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 6px;
+    border: none;
+}
+
+.account{
+    margin-left: 75px;
+    font-size: 1.1rem;
+}
+
+.log-in:link{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.log-in:visited{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
