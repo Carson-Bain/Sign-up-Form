@@ -20,7 +20,7 @@ justify-content:space-between;
 }
 
 .logo{
-    background-color: gray;
+    background-color: rgba(0, 0 ,0, .5);
     margin-top: 200px;
     width: 100%;
     height: 140px;
@@ -56,7 +56,28 @@ a:visited{
 
 
 .right-side{
-background-color: red;
-height: 100vh;
-flex: 2;
+    height: 100vh;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    width: 100%;
+    flex: 1;
+    background-color: #f9fafb;
+}
+
+.sign-in{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.create-account{
+    width: 100%;
+    flex: 1;
+    background-color: #f9fafb;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2) inset;
 }
