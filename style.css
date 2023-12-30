@@ -125,8 +125,11 @@ input{
 
 }
 
-input:invalid:focus{
+input:invalid{
     border-color: red;
+}
+input:valid{
+    border-color:#596D48;
 }
 
 input:focus{
